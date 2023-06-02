@@ -3,8 +3,10 @@ Room DB demo application
 
 ![Screenshot_1685417904](https://github.com/code09128/KOTLINRoomDB/assets/32324308/df476dbf-dd0f-4ecc-8c31-90e4ef8c6444)
 
-#ROOM 
+## ROOM 
 1.create Database 
+
+```kotlin
 @Database(entities = arrayOf(DataTabelModel::class), version = 1, exportSchema = false)
 abstract class DataDemobase:RoomDatabase() {
 
@@ -31,8 +33,10 @@ abstract class DataDemobase:RoomDatabase() {
 
     }
 }
-
+```
 -------------------------------------------------------------------------------------------------
+
+## DAO DataBase 設計
 
 @Dao
 interface DataDao {
