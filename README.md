@@ -38,6 +38,7 @@ abstract class DataDemobase:RoomDatabase() {
 
 ## DAO DataBase 設計
 
+```kotlin
 @Dao
 interface DataDao {
 
@@ -63,3 +64,4 @@ interface DataDao {
     @Query("DELETE FROM MyTabelData")
     suspend fun deleteAllData()
 }
+```
