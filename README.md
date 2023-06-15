@@ -36,7 +36,7 @@ abstract class DataDemobase:RoomDatabase() {
 }
 ```
 
-## DAO DataBase 設計
+## DAO DataBase 
 ```kotlin
 @Dao
 interface DataDao {
